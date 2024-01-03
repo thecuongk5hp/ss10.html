@@ -1,0 +1,30 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.item {
+    height: 50px;
+    width: 75px;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(215, 14, 14);
+    background-color: rgba(192, 255, 204, 0.481);
+}
+
+.item:nth-child(3){
+    width: 200px;
+}
+.item:nth-child(9){
+    width: 150px;
+}
+.item:nth-child(8){
+    width: 50px;
+}
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
