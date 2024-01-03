@@ -1,0 +1,27 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+.item {
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  line-height: 150px;
+  color: white;
+}
+.item:first-child{
+  border-radius: 20px;
+  background-color: red;
+}
+.item:nth-child(2){
+  background-color: blue;
+  border-radius: 50%;
+}
+.item:last-child{
+  border-radius: 20px;
+  background-color: red;
+}
